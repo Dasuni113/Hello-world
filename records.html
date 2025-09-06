@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Records</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <nav class="nav">
+    <strong>🎓 University Enrollment</strong>
+    <a href="index.html" class="">Home</a>
+    <a href="add-student.html" class="">Add Student</a>
+    <a href="add-department.html" class="">Add Department</a>
+    <a href="enroll-student.html" class="">Student Enrollment</a>
+    <a href="records.html" class="active">Records</a>
+  </nav>
+</header>
+  <main>
+    <h1>Records (Sample Tables)</h1>
+    <p class="note">These are placeholder tables to illustrate layout. Connect these to your database to show real data.</p>
+
+    <h3>Students</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Student ID</th><th>NIC</th><th>Name</th><th>DOB</th><th>Email</th><th>Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>RUSL2025-001</td><td>200312345678</td><td>K.B.B. Mansika</td><td>2003-06-15</td><td>mansika@example.com</td><td>+94 71 123 4567</td></tr>
+        <tr><td>RUSL2025-002</td><td>200112345678</td><td>A. Fernando</td><td>2001-11-20</td><td>a.fernando@example.com</td><td>+94 76 987 6543</td></tr>
+      </tbody>
+    </table>
+
+    <h3 style="margin-top:20px;">Departments</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Dept ID</th><th>Name</th><th>Faculty</th><th>Head</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>ISD</td><td>Information Systems</td><td>Faculty of Management</td><td>Dr. A. Perera</td></tr>
+        <tr><td>ACC</td><td>Accounting</td><td>Faculty of Management</td><td>Dr. N. Silva</td></tr>
+      </tbody>
+    </table>
+
+    <h3 style="margin-top:20px;">Enrollments</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Enroll ID</th><th>Student ID</th><th>Dept</th><th>Program</th><th>Semester</th><th>Year</th><th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>ENR-0001</td><td>RUSL2025-001</td><td>ISD</td><td>BSc IS</td><td>Semester 1</td><td>2025</td><td>Active</td></tr>
+        <tr><td>ENR-0002</td><td>RUSL2025-002</td><td>ACC</td><td>BSc Accounting</td><td>Semester 2</td><td>2025</td><td>Active</td></tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>

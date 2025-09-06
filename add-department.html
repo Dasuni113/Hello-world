@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add Department</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <nav class="nav">
+    <strong>🎓 University Enrollment</strong>
+    <a href="index.html" class="">Home</a>
+    <a href="add-student.html" class="">Add Student</a>
+    <a href="add-department.html" class="active">Add Department</a>
+    <a href="enroll-student.html" class="">Student Enrollment</a>
+    <a href="records.html" class="">Records</a>
+  </nav>
+</header>
+  <main>
+    <h1>Add Department</h1>
+    <form action="#" method="post">
+      <div class="row">
+        <div>
+          <label for="dept_id">Department ID</label>
+          <input id="dept_id" name="dept_id" type="text" placeholder="e.g., ISD" required>
+        </div>
+        <div>
+          <label for="dept_name">Department Name</label>
+          <input id="dept_name" name="dept_name" type="text" placeholder="e.g., Information Systems" required>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="faculty">Faculty</label>
+          <input id="faculty" name="faculty" type="text" placeholder="e.g., Faculty of Management" required>
+        </div>
+        <div>
+          <label for="head">Head of Department</label>
+          <input id="head" name="head" type="text" placeholder="e.g., Dr. A. Perera">
+        </div>
+      </div>
+      <div class="actions">
+        <button type="submit">Save Department</button>
+        <a class="btn btn-secondary" href="index.html">Cancel</a>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
