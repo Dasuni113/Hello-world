@@ -1,2 +1,15 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World </title>
+</head>
+<body>
+    <h1>Hello World Animals </h1>
+    <h3 style="font-family: 'Times New Roman', Times, serif; color: cadetblue;">
+        World-famous animals include <b>historical figures like the military horses Bucephalus and Chetak, the space dog Laika, the WWI pigeon Cher Ami, 
+        and even mythical creatures like the Phoenix.</b> Other famous animals are the dog Hachikō, the horse Seabiscuit, the cloned sheep Dolly, and internet 
+        personalities like Grumpy Cat. Wild animals like tigers, elephants, and giraffes also gain fame through their iconic status in nature.  </h3>
+</body>
+</html>
