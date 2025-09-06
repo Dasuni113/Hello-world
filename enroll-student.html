@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Enrollment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <nav class="nav">
+    <strong>🎓 University Enrollment</strong>
+    <a href="index.html" class="">Home</a>
+    <a href="add-student.html" class="">Add Student</a>
+    <a href="add-department.html" class="">Add Department</a>
+    <a href="enroll-student.html" class="active">Student Enrollment</a>
+    <a href="records.html" class="">Records</a>
+  </nav>
+</header>
+  <main>
+    <h1>Student Enrollment</h1>
+    <form action="#" method="post">
+      <div class="row">
+        <div>
+          <label for="enrollment_id">Enrollment ID</label>
+          <input id="enrollment_id" name="enrollment_id" type="text" placeholder="e.g., ENR-0001" required>
+        </div>
+        <div>
+          <label for="student_id">Student ID</label>
+          <input id="student_id" name="student_id" type="text" placeholder="e.g., RUSL2025-001" required>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="dept_id">Department ID</label>
+          <input id="dept_id" name="dept_id" type="text" placeholder="e.g., ISD" required>
+        </div>
+        <div>
+          <label for="program">Program</label>
+          <input id="program" name="program" type="text" placeholder="e.g., BSc in Information Systems" required>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="semester">Semester</label>
+          <select id="semester" name="semester" required>
+            <option value="">Select…</option>
+            <option>Semester 1</option>
+            <option>Semester 2</option>
+          </select>
+        </div>
+        <div>
+          <label for="year">Academic Year</label>
+          <input id="year" name="year" type="number" min="2000" max="2100" placeholder="2025" required>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="enrollment_date">Enrollment Date</label>
+          <input id="enrollment_date" name="enrollment_date" type="date" required>
+        </div>
+        <div>
+          <label for="status">Status</label>
+          <select id="status" name="status" required>
+            <option value="">Select…</option>
+            <option>Active</option>
+            <option>Deferred</option>
+            <option>Completed</option>
+            <option>Withdrawn</option>
+          </select>
+        </div>
+      </div>
+      <div class="actions">
+        <button type="submit">Enroll Student</button>
+        <a class="btn btn-secondary" href="index.html">Cancel</a>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
